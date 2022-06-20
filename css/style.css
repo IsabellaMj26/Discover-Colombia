@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@300&family=Roboto+Mono:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado {
+    background-image: url("../assets/tiburon.jpg") ;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+}
+
+.encabezado-img {
+    width: 4rem; 
+}
+
+nav {
+    background-color: rgb(240, 221, 185);
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 990;
+    
+}
+.navbar {
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+.contenedor {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5 rem;
+}
+
+.titulo-principal {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.9 rem;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center
+}
+
+
+.container-experiencias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.container-experiencias img:hover {
+ transform: scale(1.3); 
+ transition: transform 300ns ease-in-out;
+}
+.card-experiencias {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-experiencias img{
+    width: 100%;
+}
+
+.titulo-article {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    letter-spacing: 1px;
+    background-color: rgb(109, 211, 109);
+    width: 100%;
+}
+
+.pie-de-pagina {
+    background-color:  rgb(226, 194, 135) ;
+    gap: 2rems;
+    display: grid;
+    justify-content: center;
+    grid-gap: 1rem;
+    padding: 1rem;
+    grid-template-areas: 
+    "calificacion"
+    "copy"
+    ;
+    
+}
+.redes {
+    display: flex;
+   
+    gap: 2rem;
+    grid-area: copy;
+}
+
+.calificacion {
+    font-weight: hold;
+    font-size: 1rem;
+    grid-area: calificacion;
+    margin: auto;
+}
+
+/*ESTILOS SOBRE-NOSOTROS*/
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-img {
+display: grid;
+grid-template-rows: 300px;
+grid-template-columns: 1fr 1fr ;
+width: 100%;
+
+}
+.contenedor-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*media querys mobile*/
+@media screen and (max-width:500px) {
+    .tabla_productos {
+        width: auto;
+        margin-right: 30% ;
+    }
+    .texto_tabla {
+        text-align: justify;
+    }
+}

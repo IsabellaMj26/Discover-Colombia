@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title>Contacto</title>
+	 <!-- estilos-->
+	 <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<header class="encabezado">
+	
+	 <!--Barra de navegación-->
+	<nav >
+		<section>
+			<img id="imagen1" src="../assets/logo.png" width="70px"/>
+		</section>
+		<ul class="navbar">
+            <li><a href="../index.html"><img id="imagen1" src="../assets/flag.png" width="50px"/></a></li>
+            <li> <a href="./sobre-nosotros.html">Sobre nosotros</a></li>
+            <li><a href="./experiencias.html">Experiencias</a></li>
+            <li><a href="./productos1.html">Productos</a></li>
+            <li><a href="./contacto1.html">Contacto</a></li>
+            <li><a href="https://colombia.travel/es" target="_blank">Ir a la guia oficial del gobierno</a></li>
+		</ul>
+	</nav>
+	</header>
+	 <!-- cierre de fila logo y navegacion -->
+	 <!-- formulario de contacto -->
+	<section>
+	    <h1> Formulario de Contacto</h1>
+		<form>
+			<label for="nombre">
+				Tu nombre
+			</label>
+			<input type="text" id="nombre"/>
+			<hr/>
+			<label for="apellido">
+				Tu apellido
+			</label>
+			<input type="text" id="apellido"/>
+			<hr/>
+			<label for="email">
+				Tu email
+			</label>
+			<input type="email" id="email"/>
+			<hr/>
+			<label for="pais">
+			 Tu pais
+			</label>
+			<input type="text" id="pais"/>
+			<hr/>
+			<label>
+			 ¿Para quien es la informacion?
+			</label>
+			<br/>
+			<span>Para mi</span>
+			<input type="radio" name="destino"/>
+			<span>Para regalar</span>
+			<input type="radio" name="destino"/>
+			<hr/>
+			<label>
+			 ¿Quieres recibir informacion sobre nuestras promociones?
+			</label>
+			<br/>
+			<span>Si</span>
+			<input type="checkbox" name="aceptar" checked="checked"/>
+			<hr/>
+			<label>
+			 Acepto los terminos y condiciones
+			</label>
+			<br/>
+			<span>Si</span>
+			<input type="checkbox" name="aceptar" checked="checked"/>
+			<hr/>
+			<label>
+			 Comentarios:
+			</label>
+			<br/>
+			<textarea id="comentarios" rows="10" cols="50"></textarea>
+			<br/>
+			<input type="submit" value="Enviar"/>
+			<input type="reset" value="Borrar"/>
+		</form>
+	</section>
+	 <!-- cierre del formulario de contacto -->
+	 <!-- inicio de footer --> 
+	 <footer class="pie-de-pagina">
+		<div class="calificacion">
+		 <h3>Valoranos</h3>
+		 <span>1</span>
+		 <input type="radio" name="destino"/>
+		 <span>2</span>
+		 <input type="radio" name="destino"/>
+		 <span>3</span>
+		 <input type="radio" name="destino"/>
+		 <span>4</span>
+		 <input type="radio" name="destino"/>
+		 <span>5</span>
+		 <input type="radio" name="destino"/>
+	    </div>
+		<div class="redes">
+	     <h3>Siguenos en redes</h3>
+		 <a href="https://www.facebook.com" target="_blank"><img id="imagen1" src="../assets/facebook-con.jpg" width="30px"/></a>
+		 <a href="https://www.instagram.com" target="_blank"><img id="imagen1" src="../assets/instagram-icon.jpg" width="30px"/></a>
+		 <a href="https://twitter.com/" target="_blank"><img id="imagen1" src="../assets/twitter-icon.png" width="30px"/></a>
+	    </div>
+	</footer>
+</body>
+</html>
