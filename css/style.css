@@ -165,4 +165,25 @@ width: 100%;
     .texto_tabla {
         text-align: justify;
     }
+    .container-experiencias {
+        width: auto;
+        margin-right: 20%;
+    }
+    .contacto {
+        text-align: center;
+    }
+    } 
+
+@media screen and (max-width:1200px) {
+    .contacto {
+        text-align: left;
+    }
+
+    .comentarios {
+        width: 100%
+    }
+
+    .container-experiencias {
+        width: auto
+    }
 }
