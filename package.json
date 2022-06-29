@@ -1,0 +1,24 @@
+{
+  "name": "discover-colombia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsabellaMj26/Discover-Colombia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsabellaMj26/Discover-Colombia/issues"
+  },
+  "homepage": "https://github.com/IsabellaMj26/Discover-Colombia#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  }
+}

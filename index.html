@@ -1,67 +1,75 @@
- <!DOCTYPE html>
- <html lang="es">
- <head>
-	 <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- estilos-->
-	<link rel="stylesheet" href="./css/style.css">
-	<title>Discover Colombia</title>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!-- estilos-->
+   <link rel="stylesheet" href="./css/main.css">
+   <title>Discover Colombia</title>
 </head>
 <body>
-	<!-- cabecera de la pagina --> 
-	<header class="encabezado">
-	
-            <!--Barra de navegación-->
-		<nav>
-			<section>
-				<img src="./assets/logo.png" class="encabezado-img">
-			</section>
-			
-            <!-- Enlaces de la barra de navegacion-->
-			<ul class="navbar">
-				<li><a href="./index.html"><img id="imagen1" src="./assets/flag.png" width="50px"/></a></li>
-                <li> <a href="./pages/sobre-nosotros.html">Sobre nosotros</a></li>
-				<li><a href="./pages/experiencias.html">Experiencias</a></li>
-				<li><a href="./pages/productos1.html">Productos</a></li>
-				<li><a href="./pages/contacto1.html">Contacto</a></li>
-				<li><a href="https://colombia.travel/es" target="_blank">Ir a la guia oficial del gobierno</a></li>
-			</ul>
-		</nav>
-	</header>
-	<!-- Fin de logo y navegacion -->
-	
-	<section>
-		
-		<div class="contenedor">
-			
+   <!-- cabecera de la pagina --> 
+   <header class="encabezado">
+	   
+		   <!--Barra de navegación-->
+		   <nav class="navbar navbar-expand-lg navbar-light bg" >
+			   <div class="container-fluid">
+				 <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="" height="60px"> </a>
+				 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				   <span class="navbar-toggler-icon"></span>
+				 </button>
+				 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				   <ul class="navbar-nav ">
+						<ul class="navbar">
+					   <li class="nav-item"><a class="nav-link"  href="./index.html"><img id="imagen1" src="./assets/flag.png" width="50px"/></a></li>
+					   <li class="nav-item"> <a class="nav-link"  href="./pages/sobre-nosotros.html">Sobre nosotros</a></li>
+					   <li class="nav-item"><a class="nav-link" href="./pages/experiencias.html">Experiencias</a></li>
+					   <li class="nav-item"><a class="nav-link" href="./pages/productos1.html">Productos</a></li>
+					   <li class="nav-item"><a class="nav-link" href="./pages/contacto1.html">Contacto</a></li>
+					   <li class="nav-item"><a class="nav-link" href="https://colombia.travel/es" target="_blank">Ir a la guia oficial del gobierno</a></li>
+				   </ul>
+						</ul>
+				 </div>
+			   </div>
+			 </nav>
+   </header>
+   <!-- Fin de logo y navegacion -->
+   
+   <section>
+	   
+	   <div class="contenedor">
+		   
 
-		</div>
-		<iframe src="./assets/Atardecer.jpg" frameboarder="0" width="100%" height="300px" class="img-section"> </iframe>
-	</section>
-	
-	<!-- inicio de footer --> 
-	<footer class="pie-de-pagina">
-		<div class="calificacion">
-		 <h3>Valoranos</h3>
-		 <span>1</span>
-		 <input type="radio" name="destino"/>
-		 <span>2</span>
-		 <input type="radio" name="destino"/>
-		 <span>3</span>
-		 <input type="radio" name="destino"/>
-		 <span>4</span>
-		 <input type="radio" name="destino"/>
-		 <span>5</span>
-		 <input type="radio" name="destino"/>
-	    </div>
-		<div class="redes">
-	     <h3>Siguenos en redes</h3>
-		 <a href="https://www.facebook.com" target="_blank"><img id="imagen1" src="./assets/facebook-con.jpg" width="30px"/></a>
-		 <a href="https://www.instagram.com" target="_blank"><img id="imagen1" src="./assets/instagram-icon.jpg" width="30px"/></a>
-		 <a href="https://twitter.com/" target="_blank"><img id="imagen1" src="./assets/twitter-icon.png" width="30px"/></a>
-	    </div>
-	</footer>
-
+	   </div>
+	   <iframe src="./assets/Atardecer.jpg" frameboarder="0" width="100%" height="300px" class="img-section"> </iframe>
+   </section>
+   
+   <!-- inicio de footer --> 
+   <footer class="pie-de-pagina">
+	   <div class="calificacion">
+		<h3>Valoranos</h3>
+		<span>1</span>
+		<input type="radio" name="destino"/>
+		<span>2</span>
+		<input type="radio" name="destino"/>
+		<span>3</span>
+		<input type="radio" name="destino"/>
+		<span>4</span>
+		<input type="radio" name="destino"/>
+		<span>5</span>
+		<input type="radio" name="destino"/>
+	   </div>
+	   <div class="redes">
+		<h3>Siguenos en redes</h3>
+		<a href="https://www.facebook.com" target="_blank"><img id="imagen1" src="./assets/facebook-con.jpg" width="30px"/></a>
+		<a href="https://www.instagram.com" target="_blank"><img id="imagen1" src="./assets/instagram-icon.jpg" width="30px"/></a>
+		<a href="https://twitter.com/" target="_blank"><img id="imagen1" src="./assets/twitter-icon.png" width="30px"/></a>
+	   </div>
+   </footer>
+   <!-- Link JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
